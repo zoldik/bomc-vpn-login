@@ -1,0 +1,306 @@
+@CHARSET "UTF-8";
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,input,textarea,p,blockquote,th,td,hr,button
+	{
+	margin: 0;
+	padding: 0;
+}
+
+ul,li{
+	list-style:none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+}
+
+body,button,input,select,textarea {
+	font: 12px/ 1.5 tahoma, "microsoft yahei", "\5FAE\8F6F\96C5\9ED1";
+}
+
+.body_login {
+	background: url(../images/login-div-bg.jpg) no-repeat center top;
+}
+
+.body_bomc_login {
+	background: url(../images/yhbg2.jpg) no-repeat center center;
+}
+
+#login-container {
+	padding-top: 80px;
+}
+
+#login {
+	margin: 0 auto;
+	width: 798px;
+	heigth: 472px;
+	position: relative;
+}
+
+#login {
+	background: url(../images/login_bg.png) no-repeat;
+	height: 472px;
+	margin: 0 auto;
+	width: 798px;
+}
+
+#login .formbox {
+	height: 210px;
+	padding: 133px 0 0 400px;
+	width: 327px;
+}
+
+#login .inputbox {
+	background: #fff url(../images/input_bg.jpg) no-repeat;
+	height: 29px;
+	width: 223px;
+}
+
+#login .my_input {
+	background: rgba(0, 0, 0, 0);
+	height:23px;
+	line-heigth:23px;
+	width: 217px;
+	padding:3px;
+	*padding:0px;
+	*margin-left:1px;
+	border: none;
+}
+
+#login .inputbox2 {
+	background: url(../images/input_bg1.jpg) no-repeat;
+	height: 29px;
+	padding-left: 3px;
+	width: 189px;
+}
+
+#login .my_input2 {
+	background: transparent;
+	height: 26px;
+	line-height:26px;
+	width: 186px;
+	border:0px;
+}
+
+a.yh_btn:link,a.yh_btn:hover,a.yh_btn:visited,a.yh_btn:active {
+	background: url(../images/btn.gif) no-repeat;
+	color: #FFF;
+	display: block;
+	height: 26px;
+	line-height:26px;
+	text-decoration: none;
+	text-align: center;
+	width: 70px;
+}
+
+/*-------login css end--------*/
+
+#bomc-container {
+	
+}
+
+#header {
+	background: #375FB2 url(../images/logo_w593h68.png) no-repeat 20px
+		center;
+	border-bottom: solid 1px #135A92;
+	height: 93px;
+}
+
+#header .current_user {
+	float: right;
+	height: 33px;
+	padding: 35px;
+	color: #fff;
+	font-size: 14px;
+}
+
+#header .current_user a,#header .current_user a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+#header .username {
+	padding-right: 30px;
+}
+
+#bomc-container .loginbox {
+	width: 351px;
+	height: 235px;
+	margin: 130px auto;
+	overflow: hidden;
+}
+
+#bomc-container .login_tltle {
+	background: url(../images/loginbox_w2h35.png) repeat-x;
+	border: 1px solid #9A9C9F;
+	height: 35px;
+	line-height:35px;
+	font-size:16px;
+	color: #446EBA;
+	padding-left: 15px;
+}
+
+#bomc-container .login_con {
+	height: 170px;
+	border: 1px solid #9A9C9F;
+	border-top: none;
+	background: #FFF;
+	position: relative;
+}
+
+#bomc-container .login_select1 {
+	height: 30px;
+	padding: 15px 72px;
+	font-size:14px;
+	color: #566267;
+	valign:middle;
+}
+
+#bomc-container .select_style {
+	background: rgba(0, 0, 0, 0);
+	border: none;
+	color: #000;
+	width: 130px;
+	height: 28px;
+	border: 1px solid #8FACCC;
+}
+
+#bomc-container .log_btn {
+	position: absolute;
+	left: 139px;
+	bottom: 30px;
+	background: url(../images/btn_blue_w72h28.png) no-repeat;
+	display: block;
+	width: 72px;
+	height: 28px;
+	line-height:28px;
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#bomc-container .foot2 {
+	background: #375FB2;
+	text-align: center;
+	font: 12px/ 107px "宋体";
+	color: #FFF;
+	height: 107px;
+}
+
+/*-------------------------message css--------------*/
+#message .close_div {
+	width: 270px;
+}
+
+#message .close_div h4 {
+	width: 90px;
+	float: left;
+}
+
+#message .close_div a {
+	float: right;
+	text-decoration: none;
+	color: #8c3901
+}
+
+#message .message_text textarea {
+	width: 269px;
+	heigth: 96px;
+	margin-top: 5px;
+	text-align: left;
+	padding: 3px 5px;
+	overflow-y:auto;
+	border-radius: 5px;
+	border: 1px solid #F3DEB0;
+}
+
+#msg_btn {
+	background: #F3DEB0;
+	margin-left: 100px;
+	width: 60px;
+	height: 25px;
+	margin-top: 5px;
+	border: 1px solid #ABA895;
+	cousor: pointer;
+}
+
+#msg_btn :hover {
+	color: #8c3901;
+}
+
+#info {
+	width: 110px;
+	font-size: 10px;
+	color: #999999;
+	right: 0;
+	padding-left: 40px;
+}
+
+h4 {
+	font-size: 13px;
+}
+
+#--------------manager css  -----------------------
+#bomc-container .container {
+	margin: 0 auto;
+	height: 480px;
+}
+
+#bomc-container .container a {
+	color: #446EBA;
+}
+
+#bomc-container .container a:hover {
+	color: #446EBA;
+}
+
+#bomc-container .container .left {
+	postion: absloute;
+	width: 173px;
+	float: left;
+	height: 400px;
+}
+
+#bomc-container .container .left_menu {
+	height: 442px;
+	border: 1px solid #9A9C9F;
+	border-top: none;
+	background: #FFF;
+	position: relative;
+}
+
+#bomc-container .container .left_menu ul {
+	padding: 10px 15px;
+}
+
+#bomc-container .container .left_menu ul li {
+	height: 30px;
+	line-height: 30px;
+}
+
+#bomc-container .container .right {
+	height: 480px;
+	margin-left: 173px;
+}
+
+#bomc-container .container .right .nav_title {
+	background: url(../images/loginbox_w2h35.png) repeat-x;
+	height: 35px;
+	border: 1px solid #9A9C9F;
+	font: 16px/ 35px "微软雅黑";
+	color: #446EBA;
+	padding-left: 15px;
+}
+
+#bomc-container .container #nav {
+	font: 12px/ 1.5 tahoma, "microsoft yahei", "\5FAE\8F6F\96C5\9ED1";
+}
+
+#bomc-container .container .cotent {
+	position: absloute;
+	background: #fff;
+}
+
+#bomc-container .container tr {
+	height: 26px;
+}
