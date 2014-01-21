@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	
+	<servlet>
+        <servlet-name>dispatcher</servlet-name>
+        <servlet-class>org.expressme.webwind.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>container</param-name>
+            <param-value>Guice</param-value>
+        </init-param>
+        <init-param>
+            <param-name>modules</param-name>
+            <param-value>com.boco.bomc.vpn.action.VpnModule</param-value>
+        </init-param>
+        <init-param>
+            <param-name>template</param-name>
+            <param-value>Velocity</param-value>
+        </init-param>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dispatcher</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+	    <servlet-name>XFireServlet</servlet-name>
+	    <servlet-class>
+	        org.codehaus.xfire.transport.http.XFireConfigurableServlet
+	    </servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+	    <servlet-name>XFireServlet</servlet-name>
+	    <url-pattern>/servlet/XFireServlet/*</url-pattern>
+	  </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>XFireServlet</servlet-name>
+    	<url-pattern>/services/*</url-pattern>
+  	</servlet-mapping>
+    
+    <error-page>
+    	<error-code>404</error-code>
+    	<location>/404.html</location>
+    </error-page>
+    <error-page>
+    	<error-code>500</error-code>
+    	<location>/505.html</location>
+    </error-page>
+	<!-- 配置异常处理 -->
+    <error-page>
+       <exception-type>javax.servle.ServletException</exception-type>
+       <location>/error.html</location>
+    </error-page>
+    <error-page>
+       <exception-type>java.lang.NullPointerException</exception-type>
+       <location>/error.html</location>
+    </error-page>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>

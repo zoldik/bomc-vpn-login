@@ -1,0 +1,16 @@
+<beans xmlns="http://xfire.codehaus.org/config/1.0">
+	<service>
+		<name>BomcMainAcctValidateService</name>
+		<namespace>
+			http://xfire.codehaus.org/BomcMainAcctValidateService
+		</namespace>
+		<serviceClass>com.webservice.TestServices</serviceClass>
+		<implementationClass>
+			com.webservice.TestServicesImpl
+		</implementationClass>
+		<inHandlers>
+			<handler
+				handlerClass="org.codehaus.xfire.demo.handlers.CheckVersionHandler" />
+		</inHandlers>
+	</service>
+</beans>

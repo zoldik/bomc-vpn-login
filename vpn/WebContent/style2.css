@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+#reSendSMKeyButton{
+	background-color:lightgray;
+	width:23px;
+	height:23px;
+	padding:0px;
+	line-height:23px;
+	text-align:center;
+	border:1px solid gray;
+	color:#fff;
+}
+body,button,input,select,textarea{
+	font:12px/1.5 tahoma,"microsoft yahei","\5FAE\8F6F\96C5\9ED1";
+}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,acronym,address,cite,code,del,dfn,em,font,img,strong,sub,sup,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;}
+ol,ul{list-style:none;}
+img{border:none;}
+input{border:none;background:transparent;}
+a{outline:none;}
+body{background:url(images/yhbg.jpg) no-repeat center top;}
+.main1{padding-top:80px;}
+.top{background:url(images/01_h220.png) no-repeat;margin:0 auto}
+.mid{background:url(images/02_h260.png) no-repeat;margin:0 auto;position:relative;}
+.foot{background:url(images/03_h220.png) no-repeat;margin:0 auto}
+.top,.foot{width:1200px;height:220px;}
+.mid{width:1200px;height:260px;}
+.input1,.input2,.input3{height:27px;position:absolute;}
+.input1,.input2{width:215px;}
+.input3{width:185px;}
+.link{display:block;width:26px;height:27px;cursor:pointer;position:absolute;}
+.input1{left:706px;top:16px;}
+.input2{left:706px;top:60px;}
+.input3{left:706px;top:103px;}
+.link{left:902px;top:101px;}
+.login_btn,.reset_btn{display:block;height:26px;width:70px;position:absolute;cursor:pointer;}
+.login_btn{left:673px;bottom:72px;}
+.reset_btn{left:814px;bottom:72px;}
+.top2_f{background:#375fb2 url(images/logo_w593h68.png) no-repeat 20px center;border-bottom:solid 1px #135a92;height:93px;}
+.foot2{background:#375fb2;text-align:center;font:12px/107px "宋体";color:#fff;height:107px;}
+.loginbox{width:351px;height:235px;margin:150px auto;}
+.login_tltle{background:url(images/loginbox_w2h35.png) repeat-x;border:1px solid #9a9c9f;height:35px;font:16px/35px "微软雅黑";color:#446eba; padding-left:15px;}
+.login_con{height:170px;border:1px solid #9a9c9f;border-top:none;background:#fff;position:relative;}
+.log_btn{position:absolute;left:139px;bottom:30px;background:url(images/btn_blue_w72h28.png) no-repeat;display:block;width:72px;height:28px;text-align:center;font:14px/30px "宋体";color:#fff;text-decoration:none;}
+.login_select1{height:30px;padding:15px 72px;font:14px/30px "微软雅黑";color:#566267;}
+.select_style{background:transparent;font:14px/24px "微软雅黑";border:none;color:#000; width:130px;height:28px; border:1px solid #8faccc;}
+
+
+.load2box{background:url(images/yhbg2.png) no-repeat;height:472px;margin:0 auto;width:798px;}
+.formbox{height:210px;padding:133px 0 0 400px;width:327px;}
+.font_014682{color:#014682;}
+.inputbox{background:url(images/input_bg.jpg) no-repeat;height:29px;padding-left:3px;width:220px;}
+.my_input{background:transparent;height:26px;width:217px;}
+
+.inputbox2{background:url(images/input_bg1.jpg) no-repeat;height:29px;padding-left:3px;width:189px;}
+.my_input2{background:transparent;height:26px;width:186px;}
+a.yh_btn:link,a.yh_btn:hover,a.yh_btn:visited,a.yh_btn:active{background:url(images/btn.gif) no-repeat;color:#fff;display:block;height:26px;font:bold 12px/26px "";text-decoration:none;text-align:center;width:70px;}
+
+

@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/web.xml=UTF-8
+encoding//sql/vpn_4a_user.sql=GBK
+encoding//sql/vpn_user_advice.sql=GBK
+encoding//src/db=GBK
+encoding//src/db/com/boco/bomc/vpn/db/DBManager.java=UTF-8
+encoding//src/vpn=GBK
+encoding//src/vpn/com/boco/bomc/vpn/webservice/VpnWebservice.java=GBK
+encoding/<project>=UTF-8
