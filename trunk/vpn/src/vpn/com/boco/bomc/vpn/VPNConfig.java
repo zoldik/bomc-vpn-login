@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 
 public class VPNConfig {
 	
+	
 	private static final Logger logger = Logger.getLogger(VPNConfig.class);
 	
 	private static String foruaWebservice = "";
